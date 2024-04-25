@@ -1,0 +1,11 @@
+
+.main{
+    display:flexbox;
+}
+
+.main{
+    background-color: cyan;
+    height: 100vh;
+    text-align: center;
+    padding-top: 10px;
+}

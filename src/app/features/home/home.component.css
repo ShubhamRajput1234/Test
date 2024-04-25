@@ -1,0 +1,9 @@
+
+ .ram{
+  display: flexbox;
+  background-color: cyan;
+    text-align: center;
+    height: 100vh;
+   padding-top: 10px;
+ }
+ 

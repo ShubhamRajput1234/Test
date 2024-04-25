@@ -1,0 +1,24 @@
+<div class="ram">
+<h1>Home</h1>
+<div class="data">
+    <p>Name: {{name}}</p>
+    <p>Age: {{age}}</p>
+    <p>Month: {{month}}</p>
+    <p>Name: {{names}}</p>
+    <p>EmpCode: {{empCodes}}</p>
+    <p>Employees: {{employees}}</p>
+    <p>IsActive: {{isActive}}</p>
+   
+    <button (click)="testFunction()" class="test">Test Function</button>
+    <br/>
+</div>
+<div *ngIf="submittedData">
+    <h2>Submitted Data</h2>
+    <p>Name: {{ submittedData.name }}</p>
+    <p>Email: {{ submittedData.email }}</p>
+    <p>Subject: {{ submittedData.subject }}</p>
+    <p>Message: {{ submittedData.message }}</p>
+  </div>
+</div>
+
+  
